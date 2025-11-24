@@ -5,6 +5,7 @@ from calculator import add, subtract, multiply, divide
 def test_add_basic():
     assert add(1, 2) == 3
 
+
 @pytest.mark.basic
 def test_subtract_basic():
     assert subtract(5, 3) == 2
